@@ -1,6 +1,9 @@
-//  GROUP 9 WORK ASSESSMENT 
+//  GROUP 9 WORK ASSESSMENT
 
-/*Write a program to draw a pie chart(the pie chart should represent the percentages).i.The output of the program should have the name of the pie chart, and the names of the intervals. Each section label is to be displayed outside the boundary of the pie chart near the corresponding pie section.*/
+// -----------------------------------------------------------------------------
+// The program calculates slice angles proportionally, renders them using triangle fans, and labels each slice with a white percentage and fruit name positioned slightly outside the chart circumference.
+// Radial lines divide the chart, and label positions for certain slices (like Banana and Kiwifruit) are adjusted for optimal clarity.
+// -----------------------------------------------------------------------------
 
 /*Data
 
@@ -40,7 +43,7 @@ static const char *labels[] = {
 static const int NUM_SLICES = sizeof(values) / sizeof(values[0]);
 
 // The title of the pie chart
-static const char *chartTitle = "Fruit Consumption Pie Chart";
+static const char *chartTitle = "Youth Fruit Preferences in Gachororo";
 
 // PI constant
 const float PI = 3.14159265f;
